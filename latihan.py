@@ -11,18 +11,18 @@ daftar=[1,2,3,4,5];
 print(daftar[:6]);
 #Akses List
 print("Menampilkan elemen ke 3");
-print(daftar[3]);
+print(daftar[2]);
 
 print("Ambil nilai elemen ke 2 sampai ke 4");
-print(daftar[2:5]);
+print(daftar[1:4]);
 
 print("Ambil nilai terakhir");
 print(daftar[-1]);
 
 #Ubah element list
 print("ubah elemen ke 4 dengan nilai lainnya");
-daftar[4]=8;
-print(daftar[4]);
+daftar[3]=8;
+print(daftar[3]);
 
 print("ubah elemen ke 4 sampai dengan elemen terakhir");
 daftar[4:5]=[16,20];
