@@ -6,11 +6,7 @@ print("Latihan - Modul Praktikum 4")
 print()
 print()
 
-# Progammemintamemasukkandatasebanyak-banyaknya(gunakanperulangan)
-# Tampilkanpertanyaanuntukmenambahdata(y/t?),apabilajawabant(Tidak),
-# makaprogramakanmenampilkandaftardatanya.
-# NilaiAkhirdiambildariperhitungan3komponennilai(tugas:30%,uts:35%,uas:35%)
-akhir = []
+daftar = []
 stop = False
 
 # Mengisi Nilai
@@ -21,7 +17,7 @@ while (not stop):
     uts = input("Masukkan Nilai UTS : ")
     uas = input("Masukkan Nilai UAS : ")
     nilai_akhir = 0.3 * float(tugas) + 0.35 * float(uts) + 0.35 * float(uas)
-    akhir.extend([nama, nim, tugas, uts, uas, nilai_akhir])
+    daftar.extend([nama, nim, tugas, uts, uas, nilai_akhir])
 
     tanya = input("Tambah data? (y/n) : ")
     if (tanya == "n"):
@@ -32,8 +28,9 @@ while (not stop):
 print("==============================")
 print()
 
+
 from prettytable import PrettyTable
 x = PrettyTable()
 x.field_names=["No","Nama","NIM","Tugas","UTS","UAS","Nilai Akhir"]
-x.add_row([len(akhir[0]),akhir[0],akhir[1],akhir[2],akhir[3],akhir[4],akhir[5]])
+x.add_row([len(daftar[0]),daftar[0],daftar[1],daftar[2],daftar[3],daftar[4],daftar[5]])
 print(x)
