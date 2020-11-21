@@ -6,7 +6,7 @@ print("Latihan - Modul Praktikum 4")
 print()
 print()
 
-#Membuat List dengan 5 elemen
+print("Membuat List dengan 5 elemen")
 daftar = [1,2,3,4,5]
 print(daftar)
 #Akses List
@@ -21,13 +21,13 @@ print(daftar[-1])
 
 #Ubah element list
 print("ubah elemen ke 4 dengan nilai lainnya")
-daftar[4]=8
+daftar[3]=8
 print(daftar[3])
 
 print("ubah elemen ke 4 sampai dengan elemen terakhir")
-daftar[4:5]=[16,20]
+daftar[3:5]=[16,20]
 print(daftar)
-#print(daftar[4:6])
+
 
 #Tambah Element List
 print("ambil 2 bagian dari list pertama(A) dan jadikan list ke2(B)")
