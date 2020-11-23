@@ -71,3 +71,12 @@ Nah seperti itulah hasil dari program Latihan yang diberikan oleh dosen.<br>
 <hr>
 
 ## Praktikum 4 - Praktikum
+
+Untuk tugas yang kedua yaitu Tugas Praktikum, yaitu tugas untuk membuat program sederhana menampilkan Data Nilai Mahasiswa.<br>
+* Berikut soal yang diberikan oleh dosen :<br>
+![Soal Praktikum](pict/soal_praktikum.PNG)<br>
+
+* Hasil yang di harapkan oleh dosen adalah seperti berikut :<br>
+![Hasil yang diinginkan oleh Dosen](pict/soal_praktikum_2.PNG)<br>
+
+* Selain membaca dan memahami materi yang diberikan oleh Dosen, saya juga mencari referensi dari Google dan Forum Pemrograman yang ada di Internet. Pada akhirnya saya bisa membuat program yang diberikan oleh dosen.
