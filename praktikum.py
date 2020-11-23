@@ -26,15 +26,14 @@ while not stop:
         stop = True
 
 # Cetak semua nilai
-
 print("==============================")
 print()
 
-
-
 x = PrettyTable()
+i = 0
 
 for data in daftar:
+    i += 1
     x.field_names = ["No", "Nama", "NIM", "Tugas", "UTS", "UAS", "Nilai Akhir"]
-    x.add_row(["noo", data[0], data[1], data[2], data[3], data[4], data[5]])
+    x.add_row([i, data[0], data[1], data[2], data[3], data[4], data[5]])
 print(x)
