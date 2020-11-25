@@ -33,11 +33,11 @@ baris = daftar[3:5]
 print(baris)
 
 print("tambah list B dengan nilai string")
-baris.append("Febro")
+baris.append('Febro')
 print(baris)
 
 print("Tambah list B dengan 3 nilai")
-baris.append(["Herdyanto", 3, 2])
+baris.extend(["Herdyanto", 3, 2])
 print(baris)
 
 print("Menggabungkan list A dnegan List B")

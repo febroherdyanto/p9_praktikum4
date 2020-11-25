@@ -6,7 +6,6 @@ print("Kelas : TI>20.B.1")
 print("===========================")
 print("Praktikum - Modul Praktikum 4")
 print()
-print()
 
 daftar = []
 stop = False
@@ -27,7 +26,6 @@ while not stop:
 
 # Cetak semua nilai
 print("==============================")
-print()
 
 x = PrettyTable()
 i = 0
